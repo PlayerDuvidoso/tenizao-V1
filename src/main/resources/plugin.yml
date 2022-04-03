@@ -1,0 +1,20 @@
+name: Tenizao
+version: '${project.version}'
+main: me.devdoso.tenizao.Tenizao
+description: Tenizão do Subway Surfers
+commands:
+  givetenizao:
+    description: Gives tenizão
+    usage: /givetenizao <Player>
+    permission: tenizao.give
+    permission-message: §cYou can't use this command!
+  uptenizao:
+    description: Upgrades tenizão to next tier
+    usage: /uptenizao
+    permission: tenizao.up
+    permission-message: §cYou can't use this command!
+  giveupcoin:
+    description: Gives one Upgrade Coin to player
+    usage: /giveupcoin <Player>
+    permission: tenizao.giveupcoin
+    permission-message: §cYou can't use this command!
